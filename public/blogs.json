@@ -1,41 +1,40 @@
 [
   {
     "id": "1",
-    "cover_img": "https://i.ibb.co/THzvk0w/13785116-5342918.jpg",
+    "cover_img": "../src/assets/images/1.jpg",
     "title": "The Enchanted Forest",
     "author": "Alice Smith",
-    "author_img": "https://i.ibb.co/ZH6hXGB/1.jpg",
+    "author_img": "../src/assets/images/girl1.jpg",
     "posted_date": "2023-09-12",
     "reading_time": 25,
     "hashtags": ["fantasy", "adventure", "magic"]
   },
   {
     "id": "2",
-    "cover_img": "https://i.ibb.co/xGdkxmc/11402618-4756217.jpg",
+    "cover_img": "../src/assets/images/2.png",
     "title": "Mystery at Midnight Mansion",
     "author": "John Doe",
-    "author_img": "https://i.ibb.co/jyqT699/2.jpg",
+    "author_img": "../src/assets/images/girl2.jpg",
     "posted_date": "2023-09-11",
     "reading_time": 30,
     "hashtags": ["mystery", "detective", "suspense"]
   },
   {
     "id": "3",
-    "cover_img": "https://i.ibb.co/gP2d6sZ/23672323-6796744.jpg",
+    "cover_img": "../src/assets/images/3.png",
     "title": "Cooking Adventures",
     "author": "Emily White",
-    "author_img": "https://i.ibb.co/tDJ7bj3/3.png",
+    "author_img": "../src/assets/images/boy2.png",
     "posted_date": "2023-09-10",
     "reading_time": 20,
     "hashtags": ["cooking", "recipes", "foodie"]
   },
   {
     "id": "4",
-    "cover_img": "https://i.ibb.co/MpWPLVq/13524730-362-furniture-facebook-banner-template.jpg",
+    "cover_img": "../src/assets/images/4.jpg",
     "title": "Exploring the Cosmos",
     "author": "David Brown",
-    "author_img": "https://i.ibb.co/ZzCBpvQ/christian-buehner-DIt-Ylc26z-VI-unsplash.jpg",
-    "posted_date": "2023-09-09",
+    "author_img": "../src/assets/images/boy1.png",
     "reading_time": 40,
     "hashtags": ["space", "science", "exploration"]
   },
@@ -44,7 +43,7 @@
     "cover_img": "https://i.ibb.co/Cz7PTys/12587259-252-Fashion-sale-facebook-cover-page-template.jpg",
     "title": "Traveling Through Time",
     "author": "Sarah Johnson",
-    "author_img": "https://i.ibb.co/jGPHppD/portrait-young-man-while-studying-books.jpg",
+    "author_img": "../src/assets/images/girl1.jpg",
     "posted_date": "2023-09-08",
     "reading_time": 35,
     "hashtags": ["time travel", "history", "adventure"]
