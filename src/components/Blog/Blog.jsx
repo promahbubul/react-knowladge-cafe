@@ -1,7 +1,7 @@
 import React from "react";
 import { BsBookmark } from "react-icons/bs";
 
-const Blog = ({ blog, handleAddToBookmark }) => {
+const Blog = ({ blog, handleAddToBookmark, handleMarkAsRead }) => {
   const {
     title,
     cover_img,
@@ -12,13 +12,13 @@ const Blog = ({ blog, handleAddToBookmark }) => {
     hashtags,
   } = blog;
   return (
-    <div className="mb-20">
+    <div className="mb-20 space-y-5">
       <img
         className="w-full rounded-xl"
         src={cover_img}
         alt={`cover picture of the title ${title}`}
       />
-      <div className="flex justify-between mt-7">
+      <div className="flex justify-between ">
         <div className="flex gap-4">
           <img className="w-14" src={author_img} alt="" />
           <div>
@@ -33,7 +33,7 @@ const Blog = ({ blog, handleAddToBookmark }) => {
           </button>
         </div>
       </div>
-      <h2 className="text-4xl my-4">{title}</h2>
+      <h2 className="text-4xl">{title}</h2>
       <p>
         {hashtags.map((hash, idx) => (
           <span className="mr-2 text-[#11111199]" key={idx}>
@@ -41,6 +41,12 @@ const Blog = ({ blog, handleAddToBookmark }) => {
           </span>
         ))}
       </p>
+      <button
+        onClick={() => handleMarkAsRead(reading_time)}
+        className="text-purple-600 underline font-bold "
+      >
+        Mark as Read
+      </button>
     </div>
   );
 };
