@@ -2,4 +2,4 @@
 
 [Website Link](https://ract-knowladge-cafe.netlify.app/)
 
-![screenshot](./dist/assets/demo.png)
+![screenshot](./src/assets/images/demo.png)
