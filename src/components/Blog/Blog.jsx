@@ -20,7 +20,7 @@ const Blog = ({ blog, handleAddToBookmark, handleMarkAsRead }) => {
       />
       <div className="flex justify-between ">
         <div className="flex gap-4">
-          <img className="w-14" src={author_img} alt="" />
+          <img className="w-14 h-16 rounded-full" src={author_img} alt="" />
           <div>
             <h3 className="text-2xl font-bold">{author}</h3>
             <p className="text-[#11111199]">{posted_date}</p>
